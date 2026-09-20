@@ -24,7 +24,7 @@ function M.add() a, b = get_num() print(a + b) end
 function M.sub() a, b = get_num() print(a - b) end
 function M.mult() a, b = get_num() print(a * b) end
 function M.div() a, b = get_num() print(a / b) end
-function M.fdiv() a, b = get_num() print(a // b) end
+function M.idiv() a, b = get_num() print(a // b) end
 function M.mod() a, b = get_num() print(a % b) end
 function M.pow() a, b = get_num() print(a ^ b) end
 

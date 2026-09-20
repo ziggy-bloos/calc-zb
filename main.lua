@@ -10,7 +10,7 @@ local function handle_commands(u_i)
     if u_i == "sub" then b_ops.sub() return end
     if u_i == "mul" then b_ops.mult() return end
     if u_i == "div" then b_ops.div() return end
-    if u_i == "fdiv" then b_ops.fdiv() return end
+    if u_i == "idiv" then b_ops.idiv() return end
     if u_i == "mod" then b_ops.mod() return end
     if u_i == "pow" then b_ops.pow() return end
 

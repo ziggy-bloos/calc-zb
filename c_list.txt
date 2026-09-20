@@ -1,8 +1,10 @@
+    --MISCELLANEOUS--
 'clear'     -- clears terminal
 'list'      -- lists available commands
 'license'   -- shows the license for this program
 'quit'      -- quits the program
 
+    --OPERATIONS--
 'add'       -- addition
 'sub'       -- subtraction
 'mul'       -- multiplication
