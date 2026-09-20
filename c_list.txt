@@ -1,2 +1,12 @@
+'clear'     -- clears terminal
+'list'      -- lists available commands
+'license'   -- shows the license for this program
+'quit'      -- quits the program
 
-...
+'add'       -- addition
+'sub'       -- subtraction
+'mul'       -- multiplication
+'div'       -- division
+'idiv'      -- integer division
+'mod'       -- modulo
+'pow'       -- exponentiation

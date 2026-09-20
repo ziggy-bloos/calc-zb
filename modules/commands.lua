@@ -1,14 +1,17 @@
-local M = {}
-
-function M.open_help()
-    local help, err = io.open("c_list.txt", "r")
-    if help then
-        local help_text = help:read("*all")
-        help:close()
-        print(help_text)
+local function read_and_print_file(filename)
+    local file, err = io.open(filename, "r")
+    if file then
+        local content = file:read("*all")
+        file:close()
+        print("\n"..content.."\n")
     else
-        print("\nERROR OPENING FILE.\nno file named 'c_list.txt' found in the root directory (parent directory of main.lua).\n")
+        print("\tERROR: no file named "..filename.." found.")
     end
 end
+
+local M = {}
+
+function M.list_commands() read_and_print_file("c_list.txt") end
+function M.show_license() read_and_print_file("LICENSE.txt") end
 
 return M
