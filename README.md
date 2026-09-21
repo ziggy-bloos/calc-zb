@@ -1,5 +1,5 @@
-# calc-zb-lua
-**calc-zb-lua** is a simple and basic calculator written in **Lua**. You type in the name of an operation, the program prompts you for the value of **two** operands and prints the evaluated result. _The calculator can only take in two operands._
+# calc-zb
+**calc-zb** is a simple and basic calculator written in **Lua**. You type in the name of an operation, the program prompts you for the value of **two** operands and prints the evaluated result. _The calculator can only take in two operands._
 ## Supported operations:
 - addition
 - subtraction
