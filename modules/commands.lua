@@ -1,3 +1,5 @@
+-- Copyright (c) 2026 ZiggyBloos | ZLIB LICENSE, See LICENSE.txt for details
+
 local function read_and_print_file(filename)
     local file, err = io.open(filename, "r")
     if file then

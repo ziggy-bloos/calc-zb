@@ -1,3 +1,5 @@
+-- Copyright (c) 2026 ZiggyBloos | ZLIB LICENSE, See LICENSE.txt for details
+
 local function get_num()
     io.write("num1: ")
     local a = tonumber(io.read())

@@ -1,3 +1,5 @@
+-- Copyright (c) 2026 ZiggyBloos | ZLIB LICENSE, See LICENSE.txt for details
+
 local commands = require("modules/commands")
 local b_ops = require("modules/basic_ops")
 
